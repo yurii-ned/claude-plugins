@@ -39,7 +39,7 @@ A plugin installed this way stays on that computer. It is not added to your clau
 
 1. Start a new chat or Cowork task.
 2. Attach the statements. CSV and PDF both work. If you have both for the same period, Claude uses the CSV and checks it against the PDF.
-3. Attach your own account/VAT reference if you have one (see [Use it for your company](#use-it-for-your-company)). You can also attach an earlier workbook as a structure example.
+3. Optional: attach your own account/VAT reference (see [Use it for your company](#use-it-for-your-company)). Without one, Claude uses the standard Swiss chart of accounts (Kontenrahmen KMU) and marks the accounts as proposals. You can also attach an earlier workbook as a structure example.
 4. Ask in plain words, for example: "Turn these PayPal statements into the accounting workbook."
 
 Claude loads the skill when the task matches. To start it by hand:
@@ -69,7 +69,9 @@ Check `Fragen` if it exists. It lists points that need an accounting decision.
 
 ## Use it for your company
 
-The example reference is not your data. Attach your own account/VAT reference together with the statements, or edit `references/kontenrahmen-reference.md`:
+Most users do not need this. Without your own reference, Claude works from the standard Swiss chart (Kontenrahmen KMU), proposes an account for each transaction and leaves VAT blank for you. Claude only asks for the number of your PayPal account.
+
+The example reference is not your data. For fixed accounts and approved VAT codes, attach your own account/VAT reference together with the statements, or edit `references/kontenrahmen-reference.md`:
 
 - the PayPal account number,
 - the company and director identities,
