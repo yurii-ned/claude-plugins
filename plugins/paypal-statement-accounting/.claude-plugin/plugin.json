@@ -1,0 +1,9 @@
+{
+  "name": "paypal-statement-accounting",
+  "description": "Turns PayPal and other payment statements (CSV/PDF) into an accounting-ready Excel workbook with currency sheets, Kontenrahmen mapping, a two-stage VAT review and monthly posting blocks.",
+  "author": {
+    "name": "Yurii Nedashkivskyi"
+  },
+  "repository": "https://github.com/yurii-ned/claude-plugins",
+  "keywords": ["paypal", "accounting", "excel", "bexio", "kontenrahmen", "mwst"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "yurii-ned-plugins",
+  "description": "Claude plugins by Yurii Nedashkivskyi",
+  "owner": {
+    "name": "Yurii Nedashkivskyi"
+  },
+  "plugins": [
+    {
+      "name": "paypal-statement-accounting",
+      "source": "./plugins/paypal-statement-accounting",
+      "description": "Turns PayPal and other payment statements (CSV/PDF) into an accounting-ready Excel workbook with currency sheets, Kontenrahmen mapping, a two-stage VAT review and monthly posting blocks."
+    }
+  ]
+}
