@@ -69,7 +69,7 @@ Check `Fragen` if it exists. It lists points that need an accounting decision.
 
 ## Use it for your company
 
-Most users do not need this. Without your own reference, Claude works from the standard Swiss chart (Kontenrahmen KMU), proposes an account for each transaction and leaves VAT blank for you. Claude only asks for the number of your PayPal account.
+Most users do not need this. Without your own reference, Claude works from the standard Swiss chart (Kontenrahmen KMU), proposes an account for each transaction and leaves VAT blank for you. It uses account 1011 as the PayPal account. You can change that in one place in the workbook. Claude does not ask questions as long as the statements are attached.
 
 The example reference is not your data. For fixed accounts and approved VAT codes, attach your own account/VAT reference together with the statements, or edit `references/kontenrahmen-reference.md`:
 
